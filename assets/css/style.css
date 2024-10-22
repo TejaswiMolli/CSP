@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .......................................navbar */
+
+.navbar-brand {
+    color: #2098d1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a{
+    font-weight: bold;
+}
+
+.bg--nav {
+    background-color: #b7ece3;
+}
+
+.logo {
+    padding-right: 7px;
+    font-size: 20px;
+    color: #2098d1;
+}
+
+.company-name {
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* .......................................background pic */
+
+.bg--landing {
+    background: url("../images/hompepage.jpg") no-repeat right fixed;
+}
+
+.bg--donation {
+    background: url("../images/donation.jpg") no-repeat center; 
+}
+
+.bg--contact {
+    background: url("../images/contact.jpg") no-repeat center; 
+}
+.background{
+    height: 90vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: block;
+    align-items: right;
+    justify-content: right;
+
+    position: relative;
+}
+
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.righ-al {
+    position: absolute;
+    right: 30px;
+    width: 600px;
+    margin-top: 14vh;
+}
+
+.left-al {
+    position: absolute;
+    left: 100px;
+    width: 600px;
+    margin-top: 27%;
+}
+
+.worldwater{
+    background-color: transparent;
+}
+
+.worldwater-h{
+    color: #e77540;
+    font-family: 'Exo', sans-serif;
+}
+
+.company{
+    background-color: #eae3d6;
+    border-radius: 10px;
+    padding: 10px 5px 10px 40px;
+    color: #fffdfd;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.donation--ad {
+    margin-top: 10vh;
+    color: #f8f9fa;
+    font-family: serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+/* .........................................projects */
+
+.bg---sections {
+    background-color: #f9fdfc;
+    margin-bottom: 60px;
+}
+
+.add-section{
+    width: 200%;
+}
+
+.proj-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.proj-title thead th {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.line-splitter {
+    width: 390px;
+    height: 5px;
+    margin-left: 0;
+    border: 0;
+    background-color: #444;
+}
+
+.img--border {
+    border-radius: 10px;
+    width: 100%;
+    height: 70%;
+}
+
+.caption-proj {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* .........................................contact page */
+.contact--info {
+    background-color: #efeeec;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.center-form {
+    margin-top: 30px;
+}
+
+.form-control {
+    margin-bottom: 8px;
+}
+
+.contact--link li a i {
+    width: 32px;                    /* these following four lines make a circle background for the social icons */
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 10px;
+    font-size: 50px;
+    line-height: 7px;
+    text-align: center;
+    color: #529de4;
+    background: transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact--link li a i:hover {
+    color: #e99527;
+}
+
+.email--hov {
+    display: inline-flex;
+}
+
+#email {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.email--hov a i{
+    width: 32px;                    /* these following four lines make a circle background for the social icons */
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 10px;
+    font-size: 50px;
+    line-height: 7px;
+    text-align: center;
+    color: #529de4;
+    background: transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.email--hov a i:hover{
+    color: #e99527;
+}
+
+/* .........................................footer */
+
+.bg--foot {
+    background-color: #b7ece3;
+}
+.v-splitter {
+    font-size: 25px;
+}
+
+.footer-links:hover {
+    color: #2098d1;
+    color: inherit;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;                    /* these following four lines make a circle background for the social icons */
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #529de4;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #07e992;
+}
+
+/* .........................................Vacancy page */
+.job-page {
+    display: flex;
+}
+
+.job-img {
+    width: 100%;
+}
+
+.job-ad {
+    margin-top: 10vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.warn--color {
+    color: #e77540;
+}
+
+.ad--section {
+    display: block;
+}
+
+.box--ad {
+    background-color: #ecebe7;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5px 10px 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    align-items: center;
+    line-height: 3px;
+}
+
+/* .........................................Donation Page */
+.right-donat {
+    position: absolute;
+    right: 30px;
+    width: 600px;
+    margin-top: 10%;
+}
+
+.text-ad {
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(max-width: 320px) {
+    .company-name {
+        font-size: 20px;
+    }
+    .line-splitter {
+        width: 200px;
+    }
+
+    .text-size-mob {
+        font-size: 10px;
+    }
+
+    .right-donat {
+        position: absolute;
+        left: 15px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 650px) {
+
+    .bg--donation {
+        background: url("../images/donation-mob.jpg") no-repeat center; 
+    }
+
+    .bg--contact {
+        background: url("../images/contact-mob.jpg") no-repeat center; 
+    }
+    
+    .img--border {
+        height: auto;
+    }
+    .company {
+        position: absolute;
+        left: 53%;
+    }
+
+
+    .company h2 {
+        display: none;
+    }
+    .worldwater-h{
+        display: none;
+    }
+
+    .job-img {
+    display: none;
+    }
+
+    .text-ad-iban {
+        font-size: 12px;
+    }
+}
